@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#field {
+  margin: 10px;
+  width: 600px;
+  height: 400px;
+  background-color: #F0EE7E;
+  border: 1px solid #000000;
+  position: relative;
+}
+
+#left_racket {
+  width: 10px; 
+  height: 100px; 
+  background-color: #00A755; 
+  position: absolute;
+  top: 150px;
+  left: 0px;
+}
+
+#right_racket {
+  width: 10px; 
+  height: 100px; 
+  background-color: #5D5B7C; 
+  position: absolute;
+  top: 150px;
+  left: 590px;
+}
+
+#ball {
+  width: 50px;
+  height: 50px;
+  background-color: #F02037;
+  border-radius: 50%;
+  position: absolute;
+  top: 175px;
+  left: 260px;
+}
+
+#counter {
+  font-size: 35px;
+  position: absolute;
+  top: -35px;
+  left: 270px;
+}
